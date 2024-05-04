@@ -1,18 +1,19 @@
 # Домашнее задание к занятию «7.5. Puppeteer 2»
 
 ## Решения
-* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2">Репозиторий</a> с Jest + Cucumber + Puppeteer проектом.
-* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/net.test.js">net.test.js</a>. - Автотесты.
-* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/features">puppeteer-2/features</a>. - Репозиторий с тестовыми сценариями и шагами Cucumber.
+* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/net.test.js">net.test.js</a>. - Автотесты.
+* <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/main/7.5/puppeteer-2/features">puppeteer-2/features</a>. - Репозиторий с тестовыми сценариями и шагами Cucumber.
+
+<a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/tree/main/7.5/puppeteer-2">Репозиторий</a> с проектом (Jest + Cucumber + Puppeteer).
 
 ## Что было сделано
-* В <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/package.json">package.json</a> - Дописан скрипт запуска Jest, Cucumber. Добавлены зависимости Puppeteer, Chai, Jest, Cucumber, Jest-Puppeteer.
-* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/jest.config.js">jest.config.js</a> c настройками об используемых библиотеках и тайм-аутом.
-* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/jest-puppeteer.config.js">jest-puppeteer.config.js</a> с дополнительными настройками puppeteer.
-* Создан служебный класс с асинхронными методами взаимодействия с элементами страниц, либо генерирующие ошибку - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/lib/commands.js">commands.js</a>.
-* Написаны автотесты бронирования билетов - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/net.test.js">net.test.js</a>.
-* Описаны тестовые сценарии - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/features/first.feature">first.feature</a>
-и реализовано их выполнение - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/a34f0c1fac66d7ae133fba25690391c0a6d5eb35/7.5/puppeteer-2/features/step_definitions/first.step.js">first.step.js</a>, с использованием Cucumber.
+* В <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/package.json">package.json</a> - Дописан скрипт запуска Jest, Cucumber. Добавлены зависимости Puppeteer, Chai, Jest, Cucumber, Jest-Puppeteer.
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/jest.config.js">jest.config.js</a> c настройками об используемых библиотеках и тайм-аутом.
+* Создан <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/jest-puppeteer.config.js">jest-puppeteer.config.js</a> с дополнительными настройками puppeteer.
+* Создан служебный класс с асинхронными методами взаимодействия с элементами страниц, либо генерирующие исключение - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/lib/commands.js">commands.js</a>.
+* Написаны автотесты бронирования билетов - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/net.test.js">net.test.js</a>.
+* Описаны тестовые сценарии - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/features/first.feature">first.feature</a>
+и реализовано их выполнение - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/features/step_definitions/first.step.js">first.step.js</a>, с использованием Cucumber.
 
 
 ## Задача 1. Puppeteer. Бронирование билетов
