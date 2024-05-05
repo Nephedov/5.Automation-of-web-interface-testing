@@ -16,7 +16,7 @@
 и реализовано их выполнение - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/features/step_definitions/first.step.js">first.step.js</a>, с использованием Cucumber.
 
 
-## Задача 1. Puppeteer. Бронирование билетов
+## Описание Задания 1. Puppeteer. Бронирование билетов
 
 1. Познакомьтесь с [приложением для тестирования](http://qamid.tmweb.ru/client/index.php).  
 2. Создайте новый проект с использованием Puppeteer.
@@ -25,7 +25,7 @@
 
 Для выполнения задания не забывайте отталкиваться от подходов DRY, AAA (Act, Assign, Assert) или Given-When-Then.
 
-## Задача 2. Puppeteer & Cucumber
+## Описание Задания 2. Puppeteer & Cucumber
 
 1. Подключите Cucumber к проекту.
 2. Организуейте BDD подход для ваших тестов.
