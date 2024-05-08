@@ -1,4 +1,4 @@
-# Домашнее задание к занятию «7.5. Puppeteer 2»
+# «Puppeteer 2»
 
 ## Решения
 * <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/net.test.js">net.test.js</a>. - Автотесты.
