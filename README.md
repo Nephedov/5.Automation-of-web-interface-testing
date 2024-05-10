@@ -16,6 +16,10 @@
 и реализовано их выполнение - <a href="https://github.com/Nephedov/jsaqa-code-Nephedov93/blob/main/7.5/puppeteer-2/features/step_definitions/first.step.js">first.step.js</a>, с использованием Cucumber.
 
 
+---
+---
+
+
 ## Описание Задания 1. Puppeteer. Бронирование билетов
 
 1. Познакомьтесь с [приложением для тестирования](http://qamid.tmweb.ru/client/index.php).  
